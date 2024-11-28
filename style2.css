@@ -8,11 +8,11 @@ background-image: url(https://wallpaperbat.com/img/430099-japanese-zen-painting-
  background-position: center ;/*aligns img to be centered in page */
  background-repeat: no-repeat;}/*does not repeat img */
 
- .page-wrapper{ background-color: rgba(255, 228, 196, 0.501);/*middle section color half transparent */
+.page-wrapper{ background-color: rgba(255, 228, 196, 0.501);/*middle section color half transparent */
    margin-left: 200px;/*push mid section in to make room for aside */
   padding-left: 30px;}/*space between side of mid section and text space */
 
- .sidebar{
+.sidebar{
     height: 100%; /*makes nav span length of page*/
     width: 200px;/*with of the nav */
     position: fixed;/*nav sticks even when scrolling */
@@ -23,7 +23,6 @@ background-image: url(https://wallpaperbat.com/img/430099-japanese-zen-painting-
   
 .sidebar li{list-style-type: none;}/*removes dots from list*/
 
-
 .summary {background-color: rgba(48, 29, 11, 0.584);/*background color black semitransparent*/
   padding: 10px;/*space of text from edge of box*/
   margin: 0;/*space around elements*/
@@ -32,27 +31,27 @@ background-image: url(https://wallpaperbat.com/img/430099-japanese-zen-painting-
   float: right;/*sets box to right of the page */
   }
 
-.summary p{color: rgb(255, 255, 255);font-size: large;}
+.summary p{color: rgb(255, 255, 255);font-size: large;}/* text color off white font changed to larger size*/
 
-a:link{color: rgb(31, 4, 4);}
+a:link{color: rgb(31, 4, 4);}/* links in page turn brown */
 
-a:visited{color: rgb(59, 48, 35);}
+a:visited{color: rgb(59, 48, 35);}/*link once clicked changes color */
 
-h1{ color: black;font-size: large;
-	margin-top: 5px; 
-	margin-bottom: 10px; 
-	width: 300px; 
-	height: 40px; 
-	float: right;
+h1{ color: black;font-size: large;/* font color text large*/
+	margin-top: 5px;/*sets margin spacing at top*/ 
+	margin-bottom: 10px; /*sets margin space at bottom*/
+	width: 300px; /*width of text box*/
+	height: 40px; /*size of text box hight*/
+	float: right;/*sets text to right above summary box*/
 }
 
-h1::first-letter{color: rgb(0, 0, 0);font-size: xx-large;}
+h1::first-letter{color: rgb(0, 0, 0);font-size: xx-large;}/*first letter in h1 is larger than rest of text in line*/
 
 
+p{font-size: large;/*text set to large*/
+  font-family: "Merienda", cursive;/*different font for p */
+}
 
- p{font-size: large;
-     font-family: "Merienda", cursive;
-     }
+h3::first-letter{color: rgb(0, 0, 0);font-size: xx-large;}/*first letter in h3s is larger than rest of text */
 
-h3::first-letter{color: rgb(0, 0, 0);font-size: xx-large;}
-footer{font-weight: bold;text-align:center;}
+footer{font-weight: bold;text-align:center;}/*text bold and centered in middle of page*/
