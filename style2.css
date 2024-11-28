@@ -22,18 +22,22 @@ background-image: url(https://wallpaperbat.com/img/430099-japanese-zen-painting-
   }
   
 .sidebar li{list-style-type: none;}/*removes dots from list*/
-.summary {background-color: rgba(48, 29, 11, 0.584);
 
-        padding: 10px;
-       margin: 0;
-        width: 200px; 
-        height: 300px;
-        float: right;
-        }
+
+.summary {background-color: rgba(48, 29, 11, 0.584);/*background color black semitransparent*/
+  padding: 10px;/*space of text from edge of box*/
+  margin: 0;/*space around elements*/
+  width: 200px; /*width of the box */
+  height: 300px;/*hight to if text */
+  float: right;/*sets box to right of the page */
+  }
+
 .summary p{color: rgb(255, 255, 255);font-size: large;}
-a:link{color: rgb(46, 5, 5);}
-a:visited{color: brown;}
-h1::first-letter{color: rgb(0, 0, 0);font-size: xx-large;}
+
+a:link{color: rgb(31, 4, 4);}
+
+a:visited{color: rgb(59, 48, 35);}
+
 h1{ color: black;font-size: large;
 	margin-top: 5px; 
 	margin-bottom: 10px; 
@@ -41,6 +45,10 @@ h1{ color: black;font-size: large;
 	height: 40px; 
 	float: right;
 }
+
+h1::first-letter{color: rgb(0, 0, 0);font-size: xx-large;}
+
+
 
  p{font-size: large;
      font-family: "Merienda", cursive;
