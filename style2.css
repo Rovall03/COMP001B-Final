@@ -2,24 +2,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
 
 body{ 
-font-family: "Edu AU VIC WA NT Pre", cursive;/* edits font */
-background-image: url(https://wallpaperbat.com/img/430099-japanese-zen-painting-wallpaper-top-free-japanese-zen-painting.jpg); background-size: cover;background-position: center ;background-repeat: no-repeat;}
-.sidebar{
-    height: 100%;
-    width: 200px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: #f3842a;
+font-family: "Edu AU VIC WA NT Pre", cursive;/* font import from google  */
+background-image: url(https://wallpaperbat.com/img/430099-japanese-zen-painting-wallpaper-top-free-japanese-zen-painting.jpg);
+ background-size: cover;/*makes img fill entire page*/
+ background-position: center ;/*aligns img to be centered in page */
+ background-repeat: no-repeat;}/*does not repeat img */
+
+ .page-wrapper{ background-color: rgba(255, 228, 196, 0.501);/*middle section color half transparent */
+   margin-left: 200px;/*push mid section in to make room for aside */
+  padding-left: 30px;}/*space between side of mid section and text space */
+
+ .sidebar{
+    height: 100%; /*makes nav span length of page*/
+    width: 200px;/*with of the nav */
+    position: fixed;/*nav sticks even when scrolling */
+    top: 0;/*positions to top of page */
+    left: 0;/*positions to left of the page */
+    background-color: #f3842a;/*color of background of nav*/
   }
   
-.sidebar li{list-style-type: none;}
-
-.page-wrapper{  margin-left: 200px;
-    padding-left: 20px;}
-
-   
-
+.sidebar li{list-style-type: none;}/*removes dots from list*/
 .summary {background-color: rgba(48, 29, 11, 0.584);
 
         padding: 10px;
