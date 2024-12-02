@@ -11,9 +11,12 @@ background-image: url(https://wallpaperbat.com/img/430099-japanese-zen-painting-
 
 .page-wrapper{ background-color: rgba(255, 228, 196, 0.501);/*middle section color half transparent */
    margin-left: 200px;/*push mid section in to make room for aside */
-  padding-left: 30px;}/*space between side of mid section and text space */
+  padding-left: 50px;}/*space between side of mid section and text space */
 
-.sidebar{background-image: url(https://media.istockphoto.com/id/1434532614/vector/chinese-seamless-pattern-japanese-texture-asian-background-red-and-gold-oriental-wave.jpg?s=1024x1024&w=is&k=20&c=bxL8BgVF4vA7Nnf2OBGxJW_PxbhAKuFdKqsnbPVXzCM=);/*img used as background url linked */
+.intro{margin: 50px;}/*spacing from other elements*/
+/*sidebar*/
+
+  .sidebar{background-image: url(https://media.istockphoto.com/id/1434532614/vector/chinese-seamless-pattern-japanese-texture-asian-background-red-and-gold-oriental-wave.jpg?s=1024x1024&w=is&k=20&c=bxL8BgVF4vA7Nnf2OBGxJW_PxbhAKuFdKqsnbPVXzCM=);/*img used as background url linked */
     height: 100%; /*makes nav span length of page*/
     width: 200px;/*with of the nav */
     position: fixed;/*nav sticks even when scrolling */
@@ -21,20 +24,10 @@ background-image: url(https://wallpaperbat.com/img/430099-japanese-zen-painting-
     left: 0;/*positions to left of the page */
     background-color: #f3842a;/*color of background of nav*/
   }
-  .sidebar  ul{background-color: #f3842ab9;}/* background color orange with opacity */
+.sidebar  ul{background-color: #f3842ab9;}/* background color orange with opacity */
 .sidebar li{list-style-type: none;}/*removes dots from list*/
 
 .sidebar h3 {background-color: rgba(250, 235, 215, 0.805); padding: 10px;}/*color of text and space from edge*/
-
-.summary {background-color: rgba(48, 29, 11, 0.584);/*background color black semitransparent*/
-  padding: 10px;/*space of text from edge of box*/
-  margin: 0;/*space around elements*/
-  width: 200px; /*width of the box */
-  height: 300px;/*hight to if text */
-  float: right;/*sets box to right of the page */
-  }
-
-.summary p{color: rgb(255, 255, 255);font-size: large;}/* text color off white font changed to larger size*/
 
 a:link{ color: rgb(31, 4, 4); font-weight: bold;}/* links in page turn brown */
 
@@ -42,6 +35,19 @@ a:visited{color: rgb(59, 48, 35);}/*link once clicked changes color */
 
 a:hover{color: rgba(235, 236, 239, 0.948); font-weight: 600;text-decoration: underline;}/* when hovering over element font changes color and becomes bold*/
  
+/*summary*/
+
+.summary {background-color: rgba(48, 29, 11, 0.584);/*background color black semitransparent*/
+  padding: 10px;/*space of text from edge of box*/
+  margin: 0;/*space around elements*/
+  width: 200px; /*width of the box */
+  height: 300px;/*hight to if text */
+  float: right;/*sets box to right of the page */
+  margin-left: 30px;/*spacing to the left */
+  }
+
+.summary p{color: rgb(255, 255, 255);font-size: large;}/* text color off white font changed to larger size*/
+
 
 h1{ font-family: "Sarina", cursive;/*font used for element*/
   font-weight: 400;/*how bold */
@@ -57,19 +63,17 @@ h1{ font-family: "Sarina", cursive;/*font used for element*/
 
 h1::first-letter{color: rgb(0, 0, 0);font-size: xx-large;}/*first letter in h1 is larger than rest of text in line*/
 
-
-p{font-size: large;/*text set to large*/
+h2{background-color: #f3842a;/*color of background orange */
+  margin: 70px;/*space from other elements*/
+  padding-top: 20px;/*space above from margin*/
+  width: 150px;height: 200px;/*size of box h2*/
+  font-size: x-large;/*size of font*/
+text-align: center;}/**centers text/
+  
+ p{font-size: large;/*text set to large*/
   font-family: "Merienda", cursive;/*different font for p */
 }
 
 h3::first-letter{color: rgb(0, 0, 0);font-size: xx-large;}/*first letter in h3s is larger than rest of text */
 
 footer{font-weight: bold;text-align:center;}/*text bold and centered in middle of page*/
-
-.intro{margin: 50px;}/*spacing from other elements*/
-
-h2{background-color: #f3842a;/*color of background orange */
-  margin: 70px;/*space from other elements*/
-  padding-top: 50px;/*space above from margin*/
-  width: 100px;height: 200px;/*size of box h2*/
-  font-size: x-large;}/*size of font*/
