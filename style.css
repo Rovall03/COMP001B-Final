@@ -33,7 +33,7 @@ h2{ font-family: "Shadows Into Light", serif;/*font selected */
 }
 
 /*main*/
-.main-supporting{display: grid;/*grid layout used*/
+#zen-supporting{display: grid;/*grid layout used*/
     grid-template-columns:repeat(2,1fr);/*divides in to 2 col */
     gap: 50px;/*space between  columns */
     padding: 20px;/*space between edge or margin*/

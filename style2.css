@@ -14,6 +14,8 @@ background-image: url(https://wallpaperbat.com/img/430099-japanese-zen-painting-
   padding-left: 50px;}/*space between side of mid section and text space */
 
 .intro{margin: 50px;}/*spacing from other elements*/
+
+
 /*sidebar*/
 
   .sidebar{background-image: url(https://media.istockphoto.com/id/1434532614/vector/chinese-seamless-pattern-japanese-texture-asian-background-red-and-gold-oriental-wave.jpg?s=1024x1024&w=is&k=20&c=bxL8BgVF4vA7Nnf2OBGxJW_PxbhAKuFdKqsnbPVXzCM=);/*img used as background url linked */
@@ -25,6 +27,7 @@ background-image: url(https://wallpaperbat.com/img/430099-japanese-zen-painting-
     background-color: #f3842a;/*color of background of nav*/
   }
 .sidebar  ul{background-color: #f3842ab9;}/* background color orange with opacity */
+
 .sidebar li{list-style-type: none;}/*removes dots from list*/
 
 .sidebar h3 {background-color: rgba(250, 235, 215, 0.805); padding: 10px;}/*color of text and space from edge*/
