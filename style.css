@@ -7,14 +7,9 @@ body{border: 8px double pink;/*double lined pink border*/
      background-size: cover;/*img stretched to cover page*/
 }
 
+.page-wrapper{margin-right: 200px;}/*space between to the right */
 
-.main-supporting{display: grid;/*grid layout used*/
-    grid-template-columns:repeat(2,1fr);/*divides in to 2 col */
-    gap: 50px;/*space between  columns */
-    padding: 20px;/*space between edge or margin*/
-    margin: 30px;/*space for sides*/
-}
-
+/*top of page*/
 h1{font-family: "Protest Revolution", sans-serif;/*font selected */
     text-shadow: 5px 5px 5px rgb(237, 235, 229);/*color of shadow behind text */
     font-size: 800%;/*size of text */
@@ -22,18 +17,41 @@ h1{font-family: "Protest Revolution", sans-serif;/*font selected */
      margin-left: 30px;/*space for sides from the left*/
 }
 
+.intro{padding: 30px;}/*space between edge or margin*/
+
 h2{ font-family: "Shadows Into Light", serif;/*font selected */
     font-size: 300%;/*size of text */
      color: rgb(255, 255, 255);/*color of text */
     text-decoration:underline rgb(233, 80, 139);  /*color of underline */
     text-decoration-style: wavy;/*turns underline in to a wave*/
 }
-
-h3{ font-family: "Playwrite GB S", serif;/*font selected */
-    font-size: x-large;/*size of text */
+.summary{padding: 20px; /*space between edge or margin*/
+    text-align: left;/*text starts on the most left side */
+    width: 400px;/*width of element*/
+    color:  azure;/*color of text */
+    font-size: large;/*size of text */
 }
 
+/*main*/
+.main-supporting{display: grid;/*grid layout used*/
+    grid-template-columns:repeat(2,1fr);/*divides in to 2 col */
+    gap: 50px;/*space between  columns */
+    padding: 20px;/*space between edge or margin*/
+    margin: 30px;/*space for sides*/
+}
 
+.explanation, .participation, .requirements,.benefits{background-color:rgba(255, 192, 203, 0.726); /*background color pink */
+    padding: 20px;/*space between edge or margin*/
+    height: fit-content;/*only large enough to hold contents */
+}
+
+.preamble{margin: 30px;/*space for sides*/
+    padding: 20px; /*space between edge or margin*/
+    color: azure;/*color of text */
+    font-size: large;/*size of text */
+}
+
+/*sidebar*/
 .sidebar{font-size: medium;/*size of text */
     position:absolute;
     margin: 30px;/*space for sides*/
@@ -50,21 +68,18 @@ h3{ font-family: "Playwrite GB S", serif;/*font selected */
 
 li{list-style-type: none;}/*removes dots from list*/
 
-.summary{padding: 20px; /*space between edge or margin*/
-    text-align: left;/*text starts on the most left side */
-    width: 400px;/*width of element*/
-    color:  azure;/*color of text */
-    font-size: large;/*size of text */
+/*footer*/
+footer{color: aliceblue;/*font color light blue*/
+   background-color: #d74a709b; /*background for text pink */
+   position:absolute;/*placement of footer  */
+    margin: 30px;/*space for sides*/
+    top: 0%;/*makes footer to go top of page */
+    right: 0;/*moves footer to right corner*/
+    padding: 10px;/*space between edge or margin*/
 }
 
-.page-wrapper{margin-right: 200px;}/*space between to the right */
-
-.intro{padding: 30px;}/*space between edge or margin*/
-
-.preamble{margin: 30px;/*space for sides*/
-    padding: 20px; /*space between edge or margin*/
-    color: azure;/*color of text */
-    font-size: large;/*size of text */
+h3{ font-family: "Playwrite GB S", serif;/*font selected */
+    font-size: x-large;/*size of text */
 }
 
 a{color: azure;/*color of text */
@@ -77,18 +92,5 @@ a:hover{color: #3a6b90;text-decoration: line-through;}/*when above link the text
 
 a:visited{color: purple;}/*links already selected turn purple*/
 
-.explanation, .participation, .requirements,.benefits{background-color:rgba(255, 192, 203, 0.726); /*background color pink */
-    padding: 20px;/*space between edge or margin*/
-    height: fit-content;/*only large enough to hold contents */
-}
-
 p{font-family: "Exo", sans-serif; font-size: large;}/*font selection and hoe big it will be */
 
-footer{color: aliceblue;/*font color light blue*/
-   background-color: #d74a709b; /*background for text pink */
-   position:absolute;/*placement of footer  */
-    margin: 30px;/*space for sides*/
-    top: 0%;/*makes footer to go top of page */
-    right: 0;/*moves footer to right corner*/
-    padding: 10px;/*space between edge or margin*/
-}
