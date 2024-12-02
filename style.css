@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Libre+Baskerville:ital@1&family=Merienda:wght@300..900&family=Protest+Revolution&family=Sarina&display=swap');
+
 body{border: 8px double pink;
 background-image: url(https://i.pinimg.com/736x/1e/b8/c0/1eb8c07261a3b04048225ad21a640ec1.jpg); background-size: cover;}
 
@@ -9,7 +11,10 @@ grid-template-columns:repeat(2,1fr);
 gap: 50px;
 padding: 20px;margin: 20px;
 }
-h1{font-size: 500%;color: #d74a70;}
+h1{font-family: "Protest Revolution", sans-serif;
+ 
+    font-size: 600%;color: #3f6277;}
+h2{text-decoration:underline plum;  text-decoration-style: wavy;}
 
 .sidebar{font-size: small;
     position:absolute;
@@ -20,11 +25,12 @@ top: 0;
 right: 0;
 height: 100%;
 padding: 30px;}
-
+.summary{padding: 10px; text-align: left;width: 400px;background-color: rgba(255, 228, 196, 0.578);}
 .page-wrapper{margin-right: 200px;}
-
-
+.intro{padding: 30px;}
+.preamble{margin: 30px; padding: 20px;}
 
 a{color: azure;}
 a:hover{color: #3a6b90;}
+a:visited{color: purple;text-decoration: line-through;}
 .explanation, .participation, .requirements,.benefits{background-color:rgba(255, 192, 203, 0.726); padding: 10px;height: fit-content;}
