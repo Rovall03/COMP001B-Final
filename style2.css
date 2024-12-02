@@ -51,7 +51,7 @@ h1{ font-family: "Sarina", cursive;
 	width: 400px; /*width of text box*/
 	height: 40px; /*size of text box hight*/
 	float: right;/*sets text to right above summary box*/
-  padding: 40px;
+  padding: 80px;
 }
 
 h1::first-letter{color: rgb(0, 0, 0);font-size: xx-large;}/*first letter in h1 is larger than rest of text in line*/
@@ -65,4 +65,5 @@ h3::first-letter{color: rgb(0, 0, 0);font-size: xx-large;}/*first letter in h3s 
 
 footer{font-weight: bold;text-align:center;}/*text bold and centered in middle of page*/
 .intro{margin: 50px;}
-h2{margin: 70px;padding-top: 50px;}
+h2{background-color: #f3842a;
+  margin: 70px;padding-top: 50px;width: 100px;height: 200px;  font-size: x-large;}
