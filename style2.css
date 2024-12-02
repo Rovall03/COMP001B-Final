@@ -1,6 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Libre+Baskerville:ital@1&family=Merienda:wght@300..900&family=Sarina&display=swap');
 body{ 
 font-family: "Edu AU VIC WA NT Pre", cursive;/* font import from google  */
 background-image: url(https://wallpaperbat.com/img/430099-japanese-zen-painting-wallpaper-top-free-japanese-zen-painting.jpg);
@@ -12,7 +12,7 @@ background-image: url(https://wallpaperbat.com/img/430099-japanese-zen-painting-
    margin-left: 200px;/*push mid section in to make room for aside */
   padding-left: 30px;}/*space between side of mid section and text space */
 
-.sidebar{
+.sidebar{background-image: url(https://media.istockphoto.com/id/1434532614/vector/chinese-seamless-pattern-japanese-texture-asian-background-red-and-gold-oriental-wave.jpg?s=1024x1024&w=is&k=20&c=bxL8BgVF4vA7Nnf2OBGxJW_PxbhAKuFdKqsnbPVXzCM=);
     height: 100%; /*makes nav span length of page*/
     width: 200px;/*with of the nav */
     position: fixed;/*nav sticks even when scrolling */
@@ -20,8 +20,10 @@ background-image: url(https://wallpaperbat.com/img/430099-japanese-zen-painting-
     left: 0;/*positions to left of the page */
     background-color: #f3842a;/*color of background of nav*/
   }
-  
+  .sidebar  ul{background-color: #f3842ab9;}
 .sidebar li{list-style-type: none;}/*removes dots from list*/
+
+.sidebar h3 {background-color: rgba(250, 235, 215, 0.805); padding: 10px;}
 
 .summary {background-color: rgba(48, 29, 11, 0.584);/*background color black semitransparent*/
   padding: 10px;/*space of text from edge of box*/
@@ -33,16 +35,23 @@ background-image: url(https://wallpaperbat.com/img/430099-japanese-zen-painting-
 
 .summary p{color: rgb(255, 255, 255);font-size: large;}/* text color off white font changed to larger size*/
 
-a:link{color: rgb(31, 4, 4);}/* links in page turn brown */
+a:link{ color: rgb(31, 4, 4); font-weight: bold;}/* links in page turn brown */
 
 a:visited{color: rgb(59, 48, 35);}/*link once clicked changes color */
 
-h1{ color: black;font-size: large;/* font color text large*/
+a:hover{color: rgba(235, 236, 239, 0.948); font-weight: 600;text-decoration: underline;}/* when hovering over element font changes color and becomes bold*/
+ 
+
+h1{ font-family: "Sarina", cursive;
+  font-weight: 400;
+  font-style:italic;
+   color: black;font-size: xx-large;/* font color text large*/
 	margin-top: 5px;/*sets margin spacing at top*/ 
-	margin-bottom: 10px; /*sets margin space at bottom*/
-	width: 300px; /*width of text box*/
+	margin-bottom: 15px; /*sets margin space at bottom*/
+	width: 400px; /*width of text box*/
 	height: 40px; /*size of text box hight*/
 	float: right;/*sets text to right above summary box*/
+  padding: 40px;
 }
 
 h1::first-letter{color: rgb(0, 0, 0);font-size: xx-large;}/*first letter in h1 is larger than rest of text in line*/
@@ -55,3 +64,5 @@ p{font-size: large;/*text set to large*/
 h3::first-letter{color: rgb(0, 0, 0);font-size: xx-large;}/*first letter in h3s is larger than rest of text */
 
 footer{font-weight: bold;text-align:center;}/*text bold and centered in middle of page*/
+.intro{margin: 50px;}
+h2{margin: 70px;padding-top: 50px;}
