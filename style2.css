@@ -68,9 +68,9 @@ h2{background-color: #f3842a;/*color of background orange */
   padding-top: 20px;/*space above from margin*/
   width: 150px;height: 200px;/*size of box h2*/
   font-size: x-large;/*size of font*/
-text-align: center;}/**centers text/
+text-align: center;}/*centers text*/
   
- p{font-size: large;/*text set to large*/
+ p{font-size: large; /*text set to large*/
   font-family: "Merienda", cursive;/*different font for p */
 }
 
