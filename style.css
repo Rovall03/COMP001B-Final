@@ -1,0 +1,30 @@
+body{border: 8px double pink;
+background-image: url(https://i.pinimg.com/736x/1e/b8/c0/1eb8c07261a3b04048225ad21a640ec1.jpg); background-size: cover;}
+
+footer{color: aliceblue;
+   background-color: #d74a70c5; position:fixed;
+bottom: 10%;}
+.main-supporting{display: grid;
+grid-template-columns:repeat(2,1fr);
+gap: 50px;
+padding: 20px;margin: 20px;
+}
+h1{font-size: 500%;color: #d74a70;}
+
+.sidebar{font-size: small;
+    position:absolute;
+    margin: 30px;
+background-color:rgba(178, 60, 115, 0.581);
+width:100px;
+top: 0;
+right: 0;
+height: 100%;
+padding: 30px;}
+
+.page-wrapper{margin-right: 200px;}
+
+
+
+a{color: azure;}
+a:hover{color: #3a6b90;}
+.explanation, .participation, .requirements,.benefits{background-color:rgba(255, 192, 203, 0.726); padding: 10px;height: fit-content;}
